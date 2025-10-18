@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 20px;
+}
+#welcome, .catalog, .cart, .admin-container {
+  max-width: 800px;
+  margin: auto;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+}
+.admin-container {
+  display: flex;
+}
+.admin-sidebar {
+  flex: 0 0 200px;
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+.admin-sidebar button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  text-align: left;
+  background: none;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+.admin-sidebar button.active {
+  background: #555;
+}
+.admin-content {
+  flex: 1;
+  background: white;
+  padding: 20px;
+}
+.admin-content form label {
+  display: block;
+  margin: 10px 0;
+}
+.admin-content form input[type="text"],
+.admin-content form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
